@@ -17,9 +17,9 @@
 <!-- GLITCH / CYBERPUNK NEON BADGE ROW -->
 <div align="center">
 
-![Profile Views](https://komarev.com/ghpvc/?username=ragini19854-prog&style=for-the-badge&color=blueviolet&label=PROFILE+VIEWS)
-![GitHub followers](https://img.shields.io/github/followers/ragini19854-prog?style=for-the-badge&color=00f5ff&labelColor=0d1117&label=FOLLOWERS)
-![GitHub stars](https://img.shields.io/github/stars/ragini19854-prog?style=for-the-badge&color=ffd700&labelColor=0d1117&label=TOTAL+STARS)
+![Profile Views](https://komarev.com/ghpvc/?username=dev-shubh-madara&style=for-the-badge&color=blueviolet&label=PROFILE+VIEWS)
+![GitHub followers](https://img.shields.io/github/followers/dev-shubh-madara?style=for-the-badge&color=00f5ff&labelColor=0d1117&label=FOLLOWERS)
+![GitHub stars](https://img.shields.io/github/stars/dev-shubh-madara?style=for-the-badge&color=ffd700&labelColor=0d1117&label=TOTAL+STARS)
 
 </div>
 
