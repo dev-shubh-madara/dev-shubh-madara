@@ -97,7 +97,7 @@ me.say_hi()
 
 ### 🧊 3D Contribution Graph
 
-<img src="https://github-profile-3d-contrib.vercel.app/api?username=ragini19854-prog&theme=radical" alt="3D Contribution Graph" width="100%"/>
+<img src="https://github-profile-3d-contrib.vercel.app/api?username=dev-shubh-madara&theme=radical" alt="3D Contribution Graph" width="100%"/>
 
 </div>
 
@@ -131,7 +131,7 @@ me.say_hi()
 
 ### 📈 Contribution Activity Graph
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=ragini19854-prog&bg_color=0d1117&color=00f5ff&line=ff6edc&point=ffd700&area=true&hide_border=false&border_color=00f5ff&title_color=ff6edc)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=dev-shubh-madara&bg_color=0d1117&color=00f5ff&line=ff6edc&point=ffd700&area=true&hide_border=false&border_color=00f5ff&title_color=ff6edc)](https://github.com/dev-shubh-madara/github-readme-activity-graph)
 
 </div>
 
@@ -142,7 +142,7 @@ me.say_hi()
 
 ### 🏆 GitHub Trophies
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=ragini19854-prog&theme=radical&no-frame=false&no-bg=false&margin-w=6&column=6)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=dev-shubh-madara&theme=radical&no-frame=false&no-bg=false&margin-w=6&column=6)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 
