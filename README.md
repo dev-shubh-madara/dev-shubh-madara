@@ -1,7 +1,7 @@
 <!-- GLITCH HEADER WAVE BANNER -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Shubh%20(Madara)&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=⚡%20Telegram%20Bot%20Developer%20%7C%20Python%20Wizard%20%7C%20Open%20Source%20Builder&descAlignY=55&descSize=16" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Shubh%20(Madara)&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=⚡%20Web%20Bot%20Developer%20%7C%20Python%20Wizard%20%7C%20Open%20Source%20Builder&descAlignY=55&descSize=16" width="100%"/>
 
 </div>
 
