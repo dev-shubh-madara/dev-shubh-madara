@@ -6,7 +6,6 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=900&color=A78BFA&center=true&vCenter=true&width=720&lines=Backend+Developer+%F0%9F%90%8D;Building+APIs%2C+bots+%26+AI+apps+%E2%9A%A1;Cloud+Deployment+%26+Hosting+%E2%98%81%EF%B8%8F;Always+Learning%2C+Always+Building+%F0%9F%9A%80)](https://github.com/dev-shubh-madara)
 
-![Profile Views](https://komarev.com/ghpvc/?username=dev-shubh-madara&label=PROFILE+VIEWS&color=7c3aed&style=for-the-badge)
 [![Followers](https://img.shields.io/github/followers/dev-shubh-madara?label=FOLLOWERS&style=for-the-badge&color=22d3ee&logo=github&logoColor=white&labelColor=0d1117)](https://github.com/dev-shubh-madara?tab=followers)
 ![Status](https://img.shields.io/badge/STATUS-BUILDING%20%F0%9F%9A%80-3fb950?style=for-the-badge&labelColor=0d1117)
 ![Protected](https://img.shields.io/badge/PROTECTED%20BY-SHUBH-f472b6?style=for-the-badge&logo=shield&logoColor=white&labelColor=0d1117)
