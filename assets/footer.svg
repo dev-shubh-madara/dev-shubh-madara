@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="200" viewBox="0 0 1200 200">
+<defs><linearGradient id="ink" x1="0" x2="1"><stop offset="0" stop-color="#22d3ee"/><stop offset=".5" stop-color="#a78bfa"/><stop offset="1" stop-color="#f472b6"/></linearGradient></defs>
+<rect width="1200" height="200" fill="#05060f" rx="22"/>
+<path fill="url(#ink)" fill-opacity=".25"><animate attributeName="d" dur="7s" repeatCount="indefinite" values="M0 120 C200 80 400 160 600 120 S1000 80 1200 120 V200 H0Z;M0 120 C200 160 400 80 600 120 S1000 160 1200 120 V200 H0Z;M0 120 C200 80 400 160 600 120 S1000 80 1200 120 V200 H0Z"/></path>
+<path fill="url(#ink)" fill-opacity=".4"><animate attributeName="d" dur="5s" repeatCount="indefinite" values="M0 145 C250 115 450 175 650 145 S1000 115 1200 145 V200 H0Z;M0 145 C250 175 450 115 650 145 S1000 175 1200 145 V200 H0Z;M0 145 C250 115 450 175 650 145 S1000 115 1200 145 V200 H0Z"/></path>
+<text x="600" y="72" text-anchor="middle" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="28" font-weight="800" fill="url(#ink)" letter-spacing="3">THANKS FOR VISITING</text>
+<text x="600" y="104" text-anchor="middle" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="16" fill="#94a3b8" letter-spacing="2">© SHUBH  ·  PROTECTED BY SHUBH</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230"><g transform="translate(10 10)">
+<rect width="370" height="210" rx="20" fill="#0b0f1a"/>
+<rect x="1" y="1" width="368" height="208" rx="20" fill="none" stroke="#22d3ee" stroke-opacity=".3" stroke-width="2"/>
+<rect x="1" y="1" width="368" height="208" rx="20" fill="none" stroke="#22d3ee" stroke-width="3" stroke-dasharray="120 1032" stroke-linecap="round"><animate attributeName="stroke-dashoffset" values="0;-1152" dur="5s" repeatCount="indefinite"/></rect>
+<text x="26" y="56" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="24" font-weight="800" fill="#22d3ee" letter-spacing="2">SHUBH MUSIC BOT</text>
+<text x="26" y="96" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="16" fill="#cbd5e1">Telegram voice-chat music bot</text>
+<text x="26" y="120" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="16" fill="#cbd5e1">with failover and coloured UI</text>
+<rect x="26" y="150" width="296" height="34" rx="17" fill="#22d3ee" fill-opacity=".14"/><text x="39" y="172" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="14" fill="#f1f5f9">Python · Kurigram · py-tgcalls</text>
+</g><g transform="translate(410 10)">
+<rect width="370" height="210" rx="20" fill="#0b0f1a"/>
+<rect x="1" y="1" width="368" height="208" rx="20" fill="none" stroke="#a78bfa" stroke-opacity=".3" stroke-width="2"/>
+<rect x="1" y="1" width="368" height="208" rx="20" fill="none" stroke="#a78bfa" stroke-width="3" stroke-dasharray="120 1032" stroke-linecap="round"><animate attributeName="stroke-dashoffset" values="0;-1152" dur="6s" repeatCount="indefinite"/></rect>
+<text x="26" y="56" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="24" font-weight="800" fill="#a78bfa" letter-spacing="2">YT PAID API</text>
+<text x="26" y="96" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="16" fill="#cbd5e1">Self-hosted API: keys, daily</text>
+<text x="26" y="120" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="16" fill="#cbd5e1">plans, UPI payment checks, portal</text>
+<rect x="26" y="150" width="242" height="34" rx="17" fill="#a78bfa" fill-opacity=".14"/><text x="39" y="172" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="14" fill="#f1f5f9">FastAPI · SQLite · Clerk</text>
+</g><g transform="translate(810 10)">
+<rect width="370" height="210" rx="20" fill="#0b0f1a"/>
+<rect x="1" y="1" width="368" height="208" rx="20" fill="none" stroke="#f472b6" stroke-opacity=".3" stroke-width="2"/>
+<rect x="1" y="1" width="368" height="208" rx="20" fill="none" stroke="#f472b6" stroke-width="3" stroke-dasharray="120 1032" stroke-linecap="round"><animate attributeName="stroke-dashoffset" values="0;-1152" dur="7s" repeatCount="indefinite"/></rect>
+<text x="26" y="56" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="24" font-weight="800" fill="#f472b6" letter-spacing="2">CONVONET</text>
+<text x="26" y="96" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="16" fill="#cbd5e1">Self-hosted AI platform with own</text>
+<text x="26" y="120" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="16" fill="#cbd5e1">API keys and local models</text>
+<rect x="26" y="150" width="251" height="34" rx="17" fill="#f472b6" fill-opacity=".14"/><text x="39" y="172" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="14" fill="#f1f5f9">FastAPI · Ollama · Python</text>
+</g></svg>

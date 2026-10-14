@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="26" viewBox="0 0 1200 26">
+<defs><linearGradient id="l" x1="0" x2="1"><stop offset="0" stop-color="#22d3ee" stop-opacity="0"/><stop offset=".3" stop-color="#22d3ee"/><stop offset=".5" stop-color="#a78bfa"/><stop offset=".7" stop-color="#f472b6"/><stop offset="1" stop-color="#f472b6" stop-opacity="0"/></linearGradient>
+<linearGradient id="c" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff"/></linearGradient>
+<filter id="g"><feGaussianBlur stdDeviation="3"/></filter></defs>
+<rect y="12" width="1200" height="2" fill="url(#l)" opacity=".55"/>
+<rect y="11" width="1200" height="4" fill="url(#l)" opacity=".35" filter="url(#g)"/>
+<rect y="11.5" width="180" height="3" rx="2" fill="url(#c)"><animate attributeName="x" values="-200;1200" dur="4.5s" repeatCount="indefinite"/></rect>
+<rect y="11.5" width="120" height="3" rx="2" fill="url(#c)"><animate attributeName="x" values="1200;-200" dur="6s" repeatCount="indefinite"/></rect>
+<circle cy="13" r="5" fill="#fff" filter="url(#g)"><animate attributeName="cx" values="-10;1210" dur="4.5s" repeatCount="indefinite"/></circle>
+</svg>
