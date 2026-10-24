@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="510" viewBox="0 0 1200 510">
+<defs><linearGradient id="ink" x1="0" x2="1"><stop offset="0" stop-color="#22d3ee"/><stop offset=".5" stop-color="#a78bfa"/><stop offset="1" stop-color="#f472b6"/></linearGradient><filter id="glow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#05060f"/><stop offset=".6" stop-color="#0d0a24"/><stop offset="1" stop-color="#050b1a"/></linearGradient>
+<pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#fff" fill-opacity=".03"/></pattern>
+<clipPath id="card"><rect x="6" y="6" width="1188" height="498" rx="18"/></clipPath>
+</defs>
+<g clip-path="url(#card)">
+<rect width="1200" height="510" fill="url(#bg)"/>
+<rect width="1200" height="510" fill="url(#scan)"/>
+<rect x="6" y="6" width="1188" height="46" fill="#0b0f1f"/>
+<circle cx="34" cy="29" r="7" fill="#ff5f56"/><circle cx="58" cy="29" r="7" fill="#ffbd2e"/><circle cx="82" cy="29" r="7" fill="#27c93f"/>
+<text x="600" y="35" text-anchor="middle" font-family="'Fira Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="15" fill="#94a3b8" letter-spacing="1">shubh@madara: ~/profile</text>
+<clipPath id="c0"><rect x="52" y="96" height="34" width="0"><animate attributeName="width" values="0;0;116;116;0;0" keyTimes="0;0.0333;0.0833;0.9400;0.9600;1" dur="18.0s" repeatCount="indefinite"/></rect></clipPath>
+<text x="54" y="120" font-family="'Fira Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="21" fill="#3fb950" clip-path="url(#c0)">$ whoami</text>
+<clipPath id="r0"><rect x="52" y="122" height="34" width="0"><animate attributeName="width" values="0;0;337;337;0;0" keyTimes="0;0.0917;0.1250;0.9400;0.9600;1" dur="18.0s" repeatCount="indefinite"/></rect></clipPath>
+<text x="54" y="148" font-family="'Fira Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="19" fill="#c4b5fd" clip-path="url(#r0)">shubh · backend developer</text><clipPath id="c1"><rect x="52" y="162" height="34" width="0"><animate attributeName="width" values="0;0;233;233;0;0" keyTimes="0;0.1778;0.2278;0.9400;0.9600;1" dur="18.0s" repeatCount="indefinite"/></rect></clipPath>
+<text x="54" y="186" font-family="'Fira Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="21" fill="#3fb950" clip-path="url(#c1)">$ stack --primary</text>
+<clipPath id="r1"><rect x="52" y="188" height="34" width="0"><animate attributeName="width" values="0;0;480;480;0;0" keyTimes="0;0.2361;0.2694;0.9400;0.9600;1" dur="18.0s" repeatCount="indefinite"/></rect></clipPath>
+<text x="54" y="214" font-family="'Fira Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="19" fill="#c4b5fd" clip-path="url(#r1)">python · javascript · fastapi · node</text><clipPath id="c2"><rect x="52" y="228" height="34" width="0"><animate attributeName="width" values="0;0;220;220;0;0" keyTimes="0;0.3222;0.3722;0.9400;0.9600;1" dur="18.0s" repeatCount="indefinite"/></rect></clipPath>
+<text x="54" y="252" font-family="'Fira Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="21" fill="#3fb950" clip-path="url(#c2)">$ now --building</text>
+<clipPath id="r2"><rect x="52" y="254" height="34" width="0"><animate attributeName="width" values="0;0;402;402;0;0" keyTimes="0;0.3806;0.4139;0.9400;0.9600;1" dur="18.0s" repeatCount="indefinite"/></rect></clipPath>
+<text x="54" y="280" font-family="'Fira Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="19" fill="#c4b5fd" clip-path="url(#r2)">apis · telegram bots · ai apps</text><clipPath id="c3"><rect x="52" y="294" height="34" width="0"><animate attributeName="width" values="0;0;246;246;0;0" keyTimes="0;0.4667;0.5167;0.9400;0.9600;1" dur="18.0s" repeatCount="indefinite"/></rect></clipPath>
+<text x="54" y="318" font-family="'Fira Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="21" fill="#3fb950" clip-path="url(#c3)">$ deploy --targets</text>
+<clipPath id="r3"><rect x="52" y="320" height="34" width="0"><animate attributeName="width" values="0;0;441;441;0;0" keyTimes="0;0.5250;0.5583;0.9400;0.9600;1" dur="18.0s" repeatCount="indefinite"/></rect></clipPath>
+<text x="54" y="346" font-family="'Fira Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="19" fill="#c4b5fd" clip-path="url(#r3)">railway · render · koyeb · vercel</text><clipPath id="c4"><rect x="52" y="360" height="34" width="0"><animate attributeName="width" values="0;0;207;207;0;0" keyTimes="0;0.6111;0.6611;0.9400;0.9600;1" dur="18.0s" repeatCount="indefinite"/></rect></clipPath>
+<text x="54" y="384" font-family="'Fira Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="21" fill="#3fb950" clip-path="url(#c4)">$ ls ./projects</text>
+<clipPath id="r4"><rect x="52" y="386" height="34" width="0"><animate attributeName="width" values="0;0;428;428;0;0" keyTimes="0;0.6694;0.7028;0.9400;0.9600;1" dur="18.0s" repeatCount="indefinite"/></rect></clipPath>
+<text x="54" y="412" font-family="'Fira Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="19" fill="#c4b5fd" clip-path="url(#r4)">music-bot  yt-paid-api  convonet</text><clipPath id="c5"><rect x="52" y="426" height="34" width="0"><animate attributeName="width" values="0;0;116;116;0;0" keyTimes="0;0.7556;0.8056;0.9400;0.9600;1" dur="18.0s" repeatCount="indefinite"/></rect></clipPath>
+<text x="54" y="450" font-family="'Fira Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="21" fill="#3fb950" clip-path="url(#c5)">$ status</text>
+<clipPath id="r5"><rect x="52" y="452" height="34" width="0"><animate attributeName="width" values="0;0;506;506;0;0" keyTimes="0;0.8139;0.8472;0.9400;0.9600;1" dur="18.0s" repeatCount="indefinite"/></rect></clipPath>
+<text x="54" y="478" font-family="'Fira Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="19" fill="#c4b5fd" clip-path="url(#r5)">open to collaborations &amp; opportunities</text>
+<rect x="6" y="52" width="1188" height="2" fill="url(#ink)" opacity=".6"/>
+<rect y="52" width="160" height="2" fill="#fff" opacity=".9"><animate attributeName="x" values="-200;1200" dur="3.8s" repeatCount="indefinite"/></rect>
+</g>
+<rect x="6" y="6" width="1188" height="498" rx="18" fill="none" stroke="url(#ink)" stroke-width="2" stroke-dasharray="170 900"><animate attributeName="stroke-dashoffset" values="0;-2100" dur="7s" repeatCount="indefinite"/></rect>
+<rect x="6" y="6" width="1188" height="498" rx="18" fill="none" stroke="#a78bfa" stroke-opacity=".25"/>
+</svg>

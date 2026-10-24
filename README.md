@@ -15,15 +15,23 @@
 
 <img src="assets/lightline.svg" width="100%" alt="">
 
-## 👨‍💻 About me
+<img src="assets/h-about.svg" width="100%" alt="">
 
 <div align="center"><img src="assets/code.svg" alt="About Shubh" width="760"></div>
 
 <img src="assets/lightline.svg" width="100%" alt="">
 
-## 🛠️ Tech stack
+<img src="assets/h-terminal.svg" width="100%" alt="">
+
+<div align="center"><img src="assets/terminal.svg" alt="Live terminal" width="100%"></div>
+
+<img src="assets/lightline.svg" width="100%" alt="">
+
+<img src="assets/h-stack.svg" width="100%" alt="">
 
 <div align="center"><img src="assets/stack.svg" alt="Tech stack" width="100%"></div>
+
+<div align="center"><img src="assets/marquee.svg" alt="Tools scrolling" width="100%"></div>
 
 <div align="center">
 
@@ -37,19 +45,19 @@
 
 <img src="assets/lightline.svg" width="100%" alt="">
 
-## 🚀 Featured projects
+<img src="assets/h-projects.svg" width="100%" alt="">
 
 <div align="center">
 
-<a href="https://github.com/dev-shubh-madara/Shubh_music_public_bot-"><img src="assets/projects.svg" alt="Featured projects" width="100%"></a>
-
-<sub><a href="https://github.com/dev-shubh-madara/Shubh_music_public_bot-">Shubh Music Bot</a> · <a href="https://github.com/dev-shubh-madara/yt-paid-api-bot">YT Paid API</a> · ConvoNET</sub>
+<a href="https://github.com/dev-shubh-madara/Shubh_music_public_bot-"><img src="assets/card-music.svg" alt="Shubh Music Bot" width="32%"></a>
+<a href="https://github.com/dev-shubh-madara/yt-paid-api-bot"><img src="assets/card-api.svg" alt="YT Paid API" width="32%"></a>
+<a href="https://github.com/dev-shubh-madara"><img src="assets/card-convonet.svg" alt="ConvoNET" width="32%"></a>
 
 </div>
 
 <img src="assets/lightline.svg" width="100%" alt="">
 
-## 📊 GitHub stats
+<img src="assets/h-stats.svg" width="100%" alt="">
 
 <div align="center">
 
@@ -67,7 +75,7 @@
 
 <img src="assets/lightline.svg" width="100%" alt="">
 
-## 📈 Profile summary
+<img src="assets/h-summary.svg" width="100%" alt="">
 
 <div align="center">
 
@@ -81,13 +89,13 @@
 
 <img src="assets/lightline.svg" width="100%" alt="">
 
-## 🛡️ Protection
+<img src="assets/h-protect.svg" width="100%" alt="">
 
 <div align="center"><img src="assets/protect.svg" alt="Protected by Shubh" width="100%"></div>
 
 <img src="assets/lightline.svg" width="100%" alt="">
 
-## 🚀 Currently
+<img src="assets/h-now.svg" width="100%" alt="">
 
 <div align="center">
 
