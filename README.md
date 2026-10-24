@@ -57,7 +57,11 @@
 
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=dev-shubh-madara&theme=tokyonight&hide_border=true)](https://github.com/dev-shubh-madara)
 
-[![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=dev-shubh-madara&bg_color=0d1117&color=a78bfa&line=22d3ee&point=f472b6&area=true&area_color=a78bfa&hide_border=true&custom_title=Contribution%20Graph)](https://github.com/dev-shubh-madara)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dev-shubh-madara/dev-shubh-madara/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dev-shubh-madara/dev-shubh-madara/output/github-contribution-grid-snake.svg">
+  <img alt="Contribution Graph" src="https://raw.githubusercontent.com/dev-shubh-madara/dev-shubh-madara/output/github-contribution-grid-snake-dark.svg">
+</picture>
 
 </div>
 
