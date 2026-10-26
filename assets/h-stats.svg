@@ -6,7 +6,7 @@
 <g transform="translate(18,10)">
 <polygon points="31,0 58,16 58,48 31,64 4,48 4,16" fill="#0d0a24" stroke="url(#ink)" stroke-width="2.2" filter="url(#glow)"><animate attributeName="stroke-opacity" values=".6;1;.6" dur="3s" repeatCount="indefinite"/></polygon>
 <polygon points="31,10 49,20 49,44 31,54 13,44 13,20" fill="none" stroke="#a78bfa" stroke-opacity=".35" stroke-dasharray="4 5"><animateTransform attributeName="transform" type="rotate" from="0 31 32" to="360 31 32" dur="14s" repeatCount="indefinite"/></polygon>
-<text x="31" y="39" text-anchor="middle" font-family="'Fira Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="19" font-weight="700" fill="#e2e8f0">05</text>
+<text x="31" y="39" text-anchor="middle" font-family="'Fira Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="19" font-weight="700" fill="#e2e8f0">06</text>
 </g>
 <g filter="url(#glow)"><text x="92" y="50" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="38" font-weight="900" letter-spacing="5" fill="url(#ink)">GITHUB STATS</text></g>
 <g clip-path="url(#t)"><rect y="10" width="90" height="60" fill="url(#shine)" transform="skewX(-20)"><animate attributeName="x" values="60;530" dur="3.8s" repeatCount="indefinite"/></rect></g>

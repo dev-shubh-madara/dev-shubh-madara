@@ -21,6 +21,17 @@
 
 <img src="assets/lightline.svg" width="100%" alt="">
 
+<img src="assets/h-hud.svg" width="100%" alt="">
+
+<div align="center"><img src="assets/hud.svg" alt="Profile HUD" width="100%"></div>
+
+<div align="center">
+<img src="assets/city.svg" alt="The city I built this year" width="64%">
+<img src="assets/langstack.svg" alt="Language stack" width="34%">
+</div>
+
+<img src="assets/lightline.svg" width="100%" alt="">
+
 <img src="assets/h-terminal.svg" width="100%" alt="">
 
 <div align="center"><img src="assets/terminal.svg" alt="Live terminal" width="100%"></div>
