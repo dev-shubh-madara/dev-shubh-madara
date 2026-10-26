@@ -12,14 +12,19 @@ resulting assets/portrait-dots.json. Only the dots are stored, never the origina
 from __future__ import annotations
 
 import argparse
-import colorsys
 import json
 from pathlib import Path
 
 import cv2
 import numpy as np
 
-N = 25  # dots from the centre to the rim (pitch = radius / N)
+N = 28  # dots from the centre to the rim (pitch = radius / N)
+
+# stylised four-tone palette (no real skin colour): black, purple, blue, white
+PALETTE = ["3a2a8a", "8b5cf6", "38a5f8", "f8fafc"]
+SIZES = [52, 72, 88, 100]  # dot radius (% of the half-pitch) per tone
+BAYER = [[0, 8, 2, 10], [12, 4, 14, 6], [3, 11, 1, 9], [15, 7, 13, 5]]
+BAYER = [[v / 16.0 for v in row] for row in BAYER]
 
 
 def main() -> None:
@@ -48,7 +53,12 @@ def main() -> None:
     fg = cv2.GaussianBlur(fg, (7, 7), 0)
 
     cx, cy, rad = a.cx * W, a.cy * H, a.r * W
-    rgb = cv2.cvtColor(sm, cv2.COLOR_BGR2RGB).astype(np.float32) / 255.0
+    gray = cv2.cvtColor(sm, cv2.COLOR_BGR2GRAY)
+    gray = cv2.createCLAHE(clipLimit=1.6, tileGridSize=(3, 3)).apply(gray)
+    lum = gray.astype(np.float32) / 255.0
+    yy, xx = np.mgrid[0:H, 0:W]
+    inside = ((xx - cx) ** 2 + (yy - cy) ** 2 < rad ** 2) & (fg > 128)
+    lo, hi = np.percentile(lum[inside], [2, 99])
     pitch = rad / N
 
     fg_dots, bg_dots = [], []
@@ -61,15 +71,16 @@ def main() -> None:
             if fg[y0, x0] < 128:
                 bg_dots.append([i, j])
                 continue
-            # average colour over the dot's cell
+            # average brightness over the dot's cell (local-contrast enhanced), then stylise
             r = max(1, int(pitch / 2))
-            patch = rgb[max(0, y0 - r): y0 + r + 1, max(0, x0 - r): x0 + r + 1].reshape(-1, 3).mean(0)
-            h, l, sat = colorsys.rgb_to_hls(*patch)
-            sat = min(1.0, sat * 1.15)
-            l = 0.12 + 0.88 * (l ** 0.95)          # gentle lift so dark hair / shirt stay visible without washing out skin
-            col = colorsys.hls_to_rgb(h, min(0.92, l), sat)
-            size = int(round(100 * (0.28 + 0.72 * l)))
-            fg_dots.append([i, j, size, "%02x%02x%02x" % tuple(int(c * 255) for c in col)])
+            t = float(lum[max(0, y0 - r): y0 + r + 1, max(0, x0 - r): x0 + r + 1].mean())
+            t = (t - lo) / max(1e-6, hi - lo)
+            t = min(1.0, max(0.0, t)) ** 0.9
+            t += (BAYER[j % 4][i % 4] - 0.5) * 0.10        # ordered dither -> halftone feel
+            lvl = 0 if t < 0.30 else 1 if t < 0.56 else 2 if t < 0.82 else 3
+            col = PALETTE[lvl]
+            size = SIZES[lvl]
+            fg_dots.append([i, j, size, col])
 
     out = {"n": N, "fg": fg_dots, "bg": bg_dots}
     Path(a.out).write_text(json.dumps(out, separators=(",", ":")), encoding="utf-8")
