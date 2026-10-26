@@ -312,7 +312,9 @@ def render_city(d: dict) -> str:
     days = d["days"][-371:]
     cols = 19
     rows = math.ceil(len(days) / cols)
-    max_count = max((c for _, c in days), default=1) or 1
+    nz = sorted(c for _, c in days if c > 0)
+    # cap at the 90th percentile so one huge day cannot flatten the rest of the city
+    max_count = max(1, nz[int(len(nz) * 0.9) - 1] if len(nz) >= 5 else (nz[-1] if nz else 1))
     cw, ch, maxh = 8.6, 4.3, 78.0
     ox = W - 215
     oy = H - 26 - (cols + rows) * ch
@@ -326,7 +328,7 @@ def render_city(d: dict) -> str:
         sy = oy + (cx + cy) * ch
         lvl = level_of(cnt, max_count)
         col = LEVEL_COLORS[lvl]
-        h = 2.0 if cnt == 0 else 5 + (cnt / max_count) ** 0.8 * maxh
+        h = 2.0 if cnt == 0 else 5 + min(1.0, cnt / max_count) ** 0.75 * maxh
         top = f"{sx:.1f},{sy - h:.1f} {sx + cw:.1f},{sy - h + ch:.1f} {sx:.1f},{sy - h + 2 * ch:.1f} {sx - cw:.1f},{sy - h + ch:.1f}"
         left = f"{sx - cw:.1f},{sy - h + ch:.1f} {sx:.1f},{sy - h + 2 * ch:.1f} {sx:.1f},{sy + 2 * ch:.1f} {sx - cw:.1f},{sy + ch:.1f}"
         right = f"{sx + cw:.1f},{sy - h + ch:.1f} {sx:.1f},{sy - h + 2 * ch:.1f} {sx:.1f},{sy + 2 * ch:.1f} {sx + cw:.1f},{sy + ch:.1f}"
