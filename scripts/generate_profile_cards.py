@@ -208,6 +208,40 @@ def emblem(cx: float, cy: float, radius: float, pitch: float) -> str:
     return f'<g transform="translate({cx},{cy})">{ring}<g filter="url(#glow)">{"".join(dots)}</g>{scan}</g>'
 
 
+PORTRAIT = ASSETS / "portrait-dots.json"
+
+
+def portrait_emblem(cx: float, cy: float, radius: float):
+    """Dot-matrix portrait built from assets/portrait-dots.json (see scripts/make_portrait_dots.py)."""
+    if not PORTRAIT.exists():
+        return None
+    data = json.loads(PORTRAIT.read_text(encoding="utf-8"))
+    n = data["n"]
+    pitch = radius / n
+    rnd = random.Random(5)
+    dots = []
+    for i, j in data["bg"]:
+        x, y = i * pitch, j * pitch
+        t = (x + radius) / (2 * radius)
+        col = shade(CYAN, 0.7) if t < .5 else shade(PINK, 0.7)
+        dots.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="{pitch * .16:.2f}" fill="{col}" opacity=".32"/>')
+    for i, j, size, hexcol in data["fg"]:
+        x, y = i * pitch, j * pitch
+        r = pitch * 0.5 * size / 100
+        anim = ""
+        if rnd.random() < 0.05:
+            anim = f'<animate attributeName="opacity" values="1;.55;1" dur="{rnd.uniform(2.5, 5):.1f}s" begin="{rnd.uniform(0, 4):.1f}s" repeatCount="indefinite"/>'
+        dots.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="{r:.2f}" fill="#{hexcol}">{anim}</circle>')
+    ring = (f'<circle r="{radius + 14}" fill="none" stroke="url(#ink)" stroke-width="1.5" stroke-dasharray="3 9" stroke-opacity=".7">'
+            f'<animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="40s" repeatCount="indefinite"/></circle>'
+            f'<circle r="{radius + 30}" fill="none" stroke="{VIOLET}" stroke-opacity=".25" stroke-dasharray="1 7">'
+            f'<animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="60s" repeatCount="indefinite"/></circle>')
+    scan = (f'<clipPath id="orbclip"><circle r="{radius}"/></clipPath>'
+            f'<g clip-path="url(#orbclip)"><rect x="{-radius}" width="{2 * radius}" height="26" fill="url(#scanband)">'
+            f'<animate attributeName="y" values="{-radius - 30};{radius}" dur="4.5s" repeatCount="indefinite"/></rect></g>')
+    return f'<g transform="translate({cx},{cy})">{ring}<g filter="url(#glow)">{"".join(dots)}</g>{scan}</g>'
+
+
 def stat_tile(x: int, y: int, icon: str, value: str, label: str, delay: float) -> str:
     return (
         f'<g transform="translate({x},{y})">'
@@ -255,7 +289,7 @@ def render_hud(d: dict) -> str:
 {stat_tile(316, 280, ICONS["people"], fmt(d["followers"]), "FOLLOWERS", 3)}
 {"".join(chips)}
 <g transform="translate(600,0)"><path d="M0 40V360" stroke="url(#edge)" stroke-opacity=".25" stroke-dasharray="2 8"/></g>
-{emblem(930, 200, 150, 10)}
+{portrait_emblem(930, 200, 150) or emblem(930, 200, 150, 10)}
 """
     extra = ('<linearGradient id="scanband" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/>'
              '<stop offset=".5" stop-color="#22d3ee" stop-opacity=".35"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>')
