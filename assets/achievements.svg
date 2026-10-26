@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a0d1f"/><stop offset="1" stop-color="#120a2a"/></linearGradient>
+<filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<linearGradient id="shine" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".85"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<clipPath id="c0"><rect x="4" y="4" width="352" height="182" rx="22"/></clipPath>
+<clipPath id="c1"><rect x="4" y="4" width="352" height="182" rx="22"/></clipPath>
+<clipPath id="c2"><rect x="4" y="4" width="352" height="182" rx="22"/></clipPath>
+</defs>
+<g transform="translate(22,0)">
+<g clip-path="url(#c0)">
+<rect width="360" height="190" fill="url(#bg)"/>
+<circle r="110" fill="#22d3ee" fill-opacity=".16"><animate attributeName="cx" values="300;250;300" dur="6s" begin="0s" repeatCount="indefinite"/><animate attributeName="cy" values="40;90;40" dur="6s" begin="0s" repeatCount="indefinite"/></circle>
+<rect y="0" width="110" height="3" fill="url(#shine)"><animate attributeName="x" values="-130;380" dur="4s" begin="0.0s" repeatCount="indefinite"/></rect>
+</g>
+<rect x="4" y="4" width="352" height="182" rx="22" fill="none" stroke="#22d3ee" stroke-opacity=".55" stroke-width="2"/>
+<g transform="translate(36,68.0)" color="#22d3ee" fill="none" stroke="#22d3ee" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"><path d="M4 34c8-2 14-10 16-26 6 8 12 14 22 18-8 2-12 6-14 12-6-2-14-4-24-4z"/><circle cx="26" cy="22" r="1.6" fill="currentColor" stroke="none"/></g>
+<text x="110" y="87.0" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="28" font-weight="800" letter-spacing="2" fill="#f1f5f9">PULL SHARK</text>
+<text x="110" y="115.0" font-family="'Fira Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="13" letter-spacing="1" fill="#94a3b8">Merged pull requests</text>
+<g transform="translate(110,133.0)"><rect width="92" height="22" rx="11" fill="#22d3ee" fill-opacity=".14" stroke="#22d3ee" stroke-opacity=".6"/><text x="46" y="15" text-anchor="middle" font-family="'Fira Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="11" letter-spacing="2" fill="#22d3ee">UNLOCKED</text></g>
+</g>
+<g transform="translate(412,0)">
+<g clip-path="url(#c1)">
+<rect width="360" height="190" fill="url(#bg)"/>
+<circle r="110" fill="#a78bfa" fill-opacity=".16"><animate attributeName="cx" values="300;250;300" dur="6s" begin="1s" repeatCount="indefinite"/><animate attributeName="cy" values="40;90;40" dur="6s" begin="1s" repeatCount="indefinite"/></circle>
+<rect y="0" width="110" height="3" fill="url(#shine)"><animate attributeName="x" values="-130;380" dur="4s" begin="0.7s" repeatCount="indefinite"/></rect>
+</g>
+<rect x="4" y="4" width="352" height="182" rx="22" fill="none" stroke="#a78bfa" stroke-opacity=".55" stroke-width="2"/>
+<g transform="translate(36,68.0)" color="#a78bfa" fill="none" stroke="#a78bfa" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"><path d="M26 2L8 26h13l-4 18 20-26H24z"/></g>
+<text x="110" y="87.0" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="28" font-weight="800" letter-spacing="2" fill="#f1f5f9">YOLO</text>
+<text x="110" y="115.0" font-family="'Fira Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="13" letter-spacing="1" fill="#94a3b8">Merged without a review</text>
+<g transform="translate(110,133.0)"><rect width="92" height="22" rx="11" fill="#a78bfa" fill-opacity=".14" stroke="#a78bfa" stroke-opacity=".6"/><text x="46" y="15" text-anchor="middle" font-family="'Fira Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="11" letter-spacing="2" fill="#a78bfa">UNLOCKED</text></g>
+</g>
+<g transform="translate(802,0)">
+<g clip-path="url(#c2)">
+<rect width="360" height="190" fill="url(#bg)"/>
+<circle r="110" fill="#f472b6" fill-opacity=".16"><animate attributeName="cx" values="300;250;300" dur="6s" begin="2s" repeatCount="indefinite"/><animate attributeName="cy" values="40;90;40" dur="6s" begin="2s" repeatCount="indefinite"/></circle>
+<rect y="0" width="110" height="3" fill="url(#shine)"><animate attributeName="x" values="-130;380" dur="4s" begin="1.4s" repeatCount="indefinite"/></rect>
+</g>
+<rect x="4" y="4" width="352" height="182" rx="22" fill="none" stroke="#f472b6" stroke-opacity=".55" stroke-width="2"/>
+<g transform="translate(36,68.0)" color="#f472b6" fill="none" stroke="#f472b6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"><circle cx="24" cy="26" r="16"/><path d="M24 26V15M24 26l8 5M19 4h10"/></g>
+<text x="110" y="87.0" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="28" font-weight="800" letter-spacing="2" fill="#f1f5f9">QUICKDRAW</text>
+<text x="110" y="115.0" font-family="'Fira Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="13" letter-spacing="1" fill="#94a3b8">Closed within 5 minutes</text>
+<g transform="translate(110,133.0)"><rect width="92" height="22" rx="11" fill="#f472b6" fill-opacity=".14" stroke="#f472b6" stroke-opacity=".6"/><text x="46" y="15" text-anchor="middle" font-family="'Fira Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="11" letter-spacing="2" fill="#f472b6">UNLOCKED</text></g>
+</g>
+</svg>
