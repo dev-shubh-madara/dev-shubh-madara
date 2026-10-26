@@ -106,6 +106,12 @@
 
 <img src="assets/lightline.svg" width="100%" alt="">
 
+<img src="assets/h-achievements.svg" width="100%" alt="">
+
+<div align="center"><a href="https://github.com/dev-shubh-madara?tab=achievements"><img src="assets/achievements.svg" alt="GitHub achievements: Pull Shark, YOLO, Quickdraw" width="100%"></a></div>
+
+<img src="assets/lightline.svg" width="100%" alt="">
+
 <img src="assets/h-now.svg" width="100%" alt="">
 
 <div align="center">
